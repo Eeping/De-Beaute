@@ -1,0 +1,117 @@
+/*
+    Created on : Jun 11, 2017, 4:09:22 PM
+    Author     : Ee Ping
+*/
+ body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    padding-top:70px;
+ }
+
+ /*Navbar*/
+.navbar {
+    margin-bottom: 0;
+    z-index: 9999;
+    border: 0;
+    font-size: 13px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 1px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+.navbar-brand {
+    font-family: Pacifico, cursive;
+    font-size: 25px;
+}
+
+/*Form*/
+.form-signin {
+    max-width: 600px;
+    padding: 0px 35px 60px 35px ;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1);
+
+}
+.form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    @include box-sizing(border-box);
+
+&:focus {
+    z-index: 2;
+    }
+}
+.form-inline{
+    padding: 0px 0px 15px 0px;
+}
+
+/*Button*/
+.btn {
+    padding: 10px 20px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn.round {
+    border-radius: 24px;
+}
+
+.btn-success {
+    background: #00bf6f;
+    color: #ffffff;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open > .dropdown-toggle.btn-success {
+    background: #39bf87;
+}
+
+.btn-success:active, .btn-success.active {
+    background: #008c52;
+    box-shadow: none;
+}
+
+.btn-danger {
+	background: #f25454;
+	color: #ffffff;
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open > .dropdown-toggle.btn-danger {
+	background: #f26d6d;
+}
+
+.btn-danger:active, .btn-danger.active {
+	background: #bf4343;
+	box-shadow: none;
+}
+
+.btn-warning {
+	background: #eb8f34;
+	color: #ffffff;
+}
+
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open > .dropdown-toggle.btn-warning {
+	background: #eba259;
+}
+
+.btn-warning:active, .btn-warning.active {
+	background: #b87430;
+	box-shadow: none;
+}
+
+/*Full width image*/
+.full-width-img {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('Images/fullwidth2.jpg');
+    background-size: cover;
+    width:100%;
+    height:500px;
+    margin-top: -50px;
+}
